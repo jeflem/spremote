@@ -1,0 +1,26 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build" 
+
+[project]
+name = "spremote"
+version = "0.1"
+dependencies = [
+  "pyserial",
+]
+authors = [
+  {name = "Jens Flemming", email = "jens.flemming@fh-zwickau.de"},
+]
+maintainers = [
+  {name = "Jens Flemming", email = "jens.flemming@fh-zwickau.de"},
+]
+description = "Remotely control your LEGO SPIKE Prime machines."
+readme = "README.md"
+license = {file = "LICENSE"}
+keywords = ["LEGO", "SPIKE", "Prime", "remote", "machine learning", "reinforcement learning"]
+
+[project.urls]
+Documentation = "https://webspace.fh-zwickau.de/jef19jdw/spremote"
+Repository = "https://github.com/jeflem/spremote.git"
+Issues = "https://github.com/jeflem/spremote/issues"
+Changelog = "https://github.com/jeflem/spremote/blob/master/CHANGELOG.md"
