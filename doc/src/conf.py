@@ -7,7 +7,7 @@ project = 'SPremote'
 copyright = '2024, Jens Flemming'
 author = 'Jens Flemming'
 version = ''
-release = '0.0'
+release = '0.1'
 
 extensions = ['myst_parser', 'autodoc2']
 myst_enable_extensions = ['fieldlist']
