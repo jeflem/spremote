@@ -141,7 +141,7 @@ hub.disconnect()
 
 ## Projects using SPremote
 
-* [Pasta machine](https://webspace.fh-zwickau.de/jef19jdw/codedata/pasta.html): motor control based on processing of camera images.
+* [Pasta machine](https://www2.htw-dresden.de/~fjeme691/flemming/codedata/pasta.html): motor control based on processing of camera images.
 
 
 TODO: logging
