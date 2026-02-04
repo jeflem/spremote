@@ -79,11 +79,11 @@ If you experience connection issues (device busy,...) power off the hub and powe
 
 SPremote stops the Python program running on the hub by default. For this purpose SPremote sends `b'\x03'`, which corresponds to pressing `Ctrl+c` in a terminal. Whenever you call an SPremote function, SPremote sends a string of Python code to the hub and waits for outputs until the hub's Python interpreter is ready for the next command.
 
-Sending commands and retrieving outputs requires some fiddling with indentation, line breaks and other string processing issues. All this is done by the `Hub` class' methods. See [the doc's examples section](https://webspace.fh-zwickau.de/jef19jdw/spremote/examples.html) and [API documentation](https://webspace.fh-zwickau.de/jef19jdw/spremote/api.html) for more information.
+Sending commands and retrieving outputs requires some fiddling with indentation, line breaks and other string processing issues. All this is done by the `Hub` class' methods. See [the doc's examples section](https://www2.htw-dresden.de/~fjeme691/spremote/examples.html) and [API documentation](https://www2.htw-dresden.de/~fjeme691/spremote/api.html) for more information.
 
 ## Documentation
 
-Documentation is in the repo's `doc/src` directory (Markdown). [HTML documentation](https://webspace.fh-zwickau.de/jef19jdw/spremote) is available, too.
+Documentation is in the repo's `doc/src` directory (Markdown). [HTML documentation](https://www2.htw-dresden.de/~fjeme691/spremote) is available, too.
 
 ## Contributing
 
